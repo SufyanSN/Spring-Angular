@@ -6,5 +6,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface TourPackageRepository extends JpaRepository<TourPackage, String>{
 	
-	public TourPackage findBySourceAndDestination(String source, String destination);
+	// Write your own function here
+	// public TourPackage findBySourceAndDestination(String src, String dest);
 }
